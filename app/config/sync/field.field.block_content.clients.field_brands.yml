@@ -1,0 +1,23 @@
+uuid: 27ef2a8b-1f5d-435a-bc68-2c328e64dada
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clients
+    - field.storage.block_content.field_brands
+  module:
+    - field_collection
+id: block_content.clients.field_brands
+field_name: field_brands
+entity_type: block_content
+bundle: clients
+label: Brands
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

@@ -1,0 +1,33 @@
+uuid: 75463a89-2f38-443c-9645-a80340ed9ba8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_banner_image.field_image
+    - field.field.field_collection_item.field_banner_image.field_link
+    - field_collection.field_collection.field_banner_image
+    - image.style.thumbnail
+  module:
+    - image
+id: field_collection_item.field_banner_image.default
+targetEntityType: field_collection_item
+bundle: field_banner_image
+mode: default
+content:
+  field_image:
+    weight: 0
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+hidden: {  }

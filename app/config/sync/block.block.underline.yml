@@ -1,0 +1,35 @@
+uuid: 6564db8d-99f4-40f1-9dc0-64da3c598777
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4bb37b3a-cf38-4d24-8713-cc50f3aaf45c'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: underline
+theme: porto
+region: right_sidebar
+weight: -22
+provider: null
+plugin: 'block_content:4bb37b3a-cf38-4d24-8713-cc50f3aaf45c'
+settings:
+  id: 'block_content:4bb37b3a-cf38-4d24-8713-cc50f3aaf45c'
+  label: Underline
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

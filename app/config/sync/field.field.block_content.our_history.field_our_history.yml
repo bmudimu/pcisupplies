@@ -1,0 +1,23 @@
+uuid: c46da87a-583f-4d72-84a4-05119fe4eef7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_history
+    - field.storage.block_content.field_our_history
+  module:
+    - field_collection
+id: block_content.our_history.field_our_history
+field_name: field_our_history
+entity_type: block_content
+bundle: our_history
+label: 'Our History'
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

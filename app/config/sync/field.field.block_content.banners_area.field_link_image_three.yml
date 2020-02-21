@@ -1,0 +1,19 @@
+uuid: 396f734f-3243-45ed-996e-91ffa8549084
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banners_area
+    - field.storage.block_content.field_link_image_three
+id: block_content.banners_area.field_link_image_three
+field_name: field_link_image_three
+entity_type: block_content
+bundle: banners_area
+label: 'Link Image Three'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

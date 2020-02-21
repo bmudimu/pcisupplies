@@ -1,0 +1,10 @@
+uuid: dbcd3241-2631-4b75-9ff6-7668948c4bab
+langcode: en
+status: true
+dependencies:
+  module:
+    - simplenews
+id: simplenews_subscriber.token
+label: Token
+targetEntityType: simplenews_subscriber
+cache: true

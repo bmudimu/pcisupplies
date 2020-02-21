@@ -1,0 +1,23 @@
+uuid: 8c63a5f4-1a28-47ee-9829-c350b9a03af7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_image
+    - field.storage.block_content.field_banner_image
+  module:
+    - field_collection
+id: block_content.banner_image.field_banner_image
+field_name: field_banner_image
+entity_type: block_content
+bundle: banner_image
+label: 'Banner Image'
+description: ''
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

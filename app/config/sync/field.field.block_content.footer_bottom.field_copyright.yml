@@ -1,0 +1,21 @@
+uuid: c6a0811b-45a4-466c-a795-9910bfb6736a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.footer_bottom
+    - field.storage.block_content.field_copyright
+  module:
+    - text
+id: block_content.footer_bottom.field_copyright
+field_name: field_copyright
+entity_type: block_content
+bundle: footer_bottom
+label: Copyright
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

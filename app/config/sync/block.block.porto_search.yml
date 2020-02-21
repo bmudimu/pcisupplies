@@ -1,0 +1,23 @@
+uuid: 2f5ce954-95ad-46fa-8605-5e4fb89839cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - porto
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: porto_search
+theme: porto
+region: header
+weight: -12
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

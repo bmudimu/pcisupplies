@@ -1,0 +1,35 @@
+uuid: 0cfc64c3-1a9f-46d0-bc1f-c9d4d5e6b435
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:newsletter:ac5a6430-176d-42fa-9d5f-65126c8d0073'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: newsletterpopup
+theme: porto
+region: after_content
+weight: 0
+provider: null
+plugin: 'block_content:ac5a6430-176d-42fa-9d5f-65126c8d0073'
+settings:
+  id: 'block_content:ac5a6430-176d-42fa-9d5f-65126c8d0073'
+  label: 'Newsletter Popup'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

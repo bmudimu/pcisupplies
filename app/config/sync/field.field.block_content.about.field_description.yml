@@ -1,0 +1,23 @@
+uuid: cf8a5734-0d07-4282-8dfd-6f33cf8ae169
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.about
+    - field.storage.block_content.field_description
+  module:
+    - text
+id: block_content.about.field_description
+field_name: field_description
+entity_type: block_content
+bundle: about
+label: Description
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,11 @@
+uuid: 1c25742e-d09c-4188-87b0-0c4c0e0bb0ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_image
+id: block_content.banner_image
+target_entity_type_id: block_content
+target_bundle: banner_image
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+uuid: 17e22715-d67f-4152-a7a5-4dc5fefbda87
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:footer_bottom:f8670007-5d9b-4923-a327-e5ebfdb53924'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: footerbottom
+theme: porto
+region: footer_bottom
+weight: 0
+provider: null
+plugin: 'block_content:f8670007-5d9b-4923-a327-e5ebfdb53924'
+settings:
+  id: 'block_content:f8670007-5d9b-4923-a327-e5ebfdb53924'
+  label: 'Footer bottom'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

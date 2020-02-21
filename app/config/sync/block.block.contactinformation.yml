@@ -1,0 +1,29 @@
+uuid: f165d427-bc61-43f4-9bc9-9ea4b6ec7f41
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:f898daca-9c8d-4e0f-8697-50a95dccc8cd'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: contactinformation
+theme: porto
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:f898daca-9c8d-4e0f-8697-50a95dccc8cd'
+settings:
+  id: 'block_content:f898daca-9c8d-4e0f-8697-50a95dccc8cd'
+  label: 'Contact Information'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

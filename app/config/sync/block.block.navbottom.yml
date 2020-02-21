@@ -1,0 +1,29 @@
+uuid: dfbf9c96-0137-4f18-83a4-136b78d6f46c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e7a35194-086d-4d84-85e5-593b4a95669e'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: navbottom
+theme: porto
+region: nav_bottom
+weight: 0
+provider: null
+plugin: 'block_content:e7a35194-086d-4d84-85e5-593b4a95669e'
+settings:
+  id: 'block_content:e7a35194-086d-4d84-85e5-593b4a95669e'
+  label: 'Nav Bottom'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

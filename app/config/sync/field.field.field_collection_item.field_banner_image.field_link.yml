@@ -1,0 +1,19 @@
+uuid: 9ddddeb7-8dbf-414c-99bb-5b3a490e6dcc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_link
+    - field_collection.field_collection.field_banner_image
+id: field_collection_item.field_banner_image.field_link
+field_name: field_link
+entity_type: field_collection_item
+bundle: field_banner_image
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

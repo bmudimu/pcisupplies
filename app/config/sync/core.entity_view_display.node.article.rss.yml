@@ -1,0 +1,39 @@
+uuid: dd0733c7-21ca-475f-8a1c-9508d1d5be96
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.rss
+    - field.field.node.article.body
+    - field.field.node.article.comment
+    - field.field.node.article.field_article_category
+    - field.field.node.article.field_article_tags
+    - field.field.node.article.field_blog_display
+    - field.field.node.article.field_image
+    - field.field.node.article.field_media
+    - field.field.node.article.field_thumbnail
+    - node.type.article
+  module:
+    - user
+_core:
+  default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
+id: node.article.rss
+targetEntityType: node
+bundle: article
+mode: rss
+content:
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  comment: true
+  field_article_category: true
+  field_article_tags: true
+  field_blog_display: true
+  field_image: true
+  field_media: true
+  field_thumbnail: true
+  langcode: true

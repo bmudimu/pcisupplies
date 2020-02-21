@@ -1,0 +1,8 @@
+uuid: b10a3350-dc52-47e4-969c-090dc362bb7f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Product Attributes'
+vid: product_attributes
+description: ''
+weight: 0

@@ -1,0 +1,8 @@
+uuid: 017b5cc4-8213-4ede-abf6-a78cde897698
+langcode: en
+status: true
+dependencies: {  }
+id: contact_form_block
+label: 'Contact form block'
+revision: 0
+description: ''

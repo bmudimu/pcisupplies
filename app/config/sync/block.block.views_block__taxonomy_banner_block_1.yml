@@ -1,0 +1,29 @@
+uuid: bbba0ff4-d6a8-4221-ae56-903ee3f8632a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_banner
+  module:
+    - block_class
+    - views
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__taxonomy_banner_block_1
+theme: porto
+region: content
+weight: -14
+provider: null
+plugin: 'views_block:taxonomy_banner-block_1'
+settings:
+  id: 'views_block:taxonomy_banner-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

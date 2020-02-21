@@ -1,0 +1,21 @@
+uuid: 67152cf7-0b22-439c-a535-8123198d608d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_media
+    - node.type.article
+  module:
+    - text
+id: node.article.field_media
+field_name: field_media
+entity_type: node
+bundle: article
+label: Media
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

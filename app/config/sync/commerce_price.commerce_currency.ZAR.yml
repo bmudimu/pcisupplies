@@ -1,0 +1,9 @@
+uuid: e9962c67-1db1-4682-9d66-56a317c2c62b
+langcode: en
+status: true
+dependencies: {  }
+currencyCode: ZAR
+name: 'South African Rand'
+numericCode: '710'
+symbol: ZAR
+fractionDigits: 2

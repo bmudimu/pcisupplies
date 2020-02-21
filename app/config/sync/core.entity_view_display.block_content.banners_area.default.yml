@@ -1,0 +1,78 @@
+uuid: fa4786e5-c558-4f6f-bbf9-0c5cc9358e43
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banners_area
+    - field.field.block_content.banners_area.body
+    - field.field.block_content.banners_area.field_image_one
+    - field.field.block_content.banners_area.field_image_three
+    - field.field.block_content.banners_area.field_image_two
+    - field.field.block_content.banners_area.field_link_image_one
+    - field.field.block_content.banners_area.field_link_image_three
+    - field.field.block_content.banners_area.field_link_image_two
+  module:
+    - image
+    - text
+id: block_content.banners_area.default
+targetEntityType: block_content
+bundle: banners_area
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image_one:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_three:
+    weight: 3
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_image_two:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: ''
+    third_party_settings: {  }
+    type: image_url
+    region: content
+  field_link_image_one:
+    weight: 4
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link_image_three:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_link_image_two:
+    weight: 5
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

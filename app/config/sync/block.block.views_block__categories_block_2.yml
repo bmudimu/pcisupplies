@@ -1,0 +1,30 @@
+uuid: 0cd00da2-e4f1-4d75-8693-890c386941ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - system
+    - views
+  theme:
+    - porto
+id: views_block__categories_block_2
+theme: porto
+region: right_sidebar
+weight: -19
+provider: null
+plugin: 'views_block:categories-block_2'
+settings:
+  id: 'views_block:categories-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/blog\r\n/node/3"
+    negate: false
+    context_mapping: {  }

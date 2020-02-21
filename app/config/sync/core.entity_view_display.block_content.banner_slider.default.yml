@@ -1,0 +1,34 @@
+uuid: 5a862986-5746-4e75-89ed-edbc135ef419
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_slider
+    - field.field.block_content.banner_slider.body
+    - field.field.block_content.banner_slider.field_image
+  module:
+    - image
+    - text
+id: block_content.banner_slider.default
+targetEntityType: block_content
+bundle: banner_slider
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

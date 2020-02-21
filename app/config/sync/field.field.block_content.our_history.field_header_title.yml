@@ -1,0 +1,19 @@
+uuid: 8d59baf0-4904-46b3-a113-c05442f30ed4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_history
+    - field.storage.block_content.field_header_title
+id: block_content.our_history.field_header_title
+field_name: field_header_title
+entity_type: block_content
+bundle: our_history
+label: 'Header Title'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

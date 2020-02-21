@@ -1,0 +1,33 @@
+uuid: 20f733b5-e694-482a-b058-6ac012ce43f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.brand_categories.field_banner
+    - taxonomy.vocabulary.brand_categories
+  module:
+    - image
+    - text
+id: taxonomy_term.brand_categories.default
+targetEntityType: taxonomy_term
+bundle: brand_categories
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_banner:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

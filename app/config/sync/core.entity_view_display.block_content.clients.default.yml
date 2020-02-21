@@ -1,0 +1,32 @@
+uuid: e3154db3-6f2b-4ddf-9d03-e42507151f21
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.clients
+    - field.field.block_content.clients.body
+    - field.field.block_content.clients.field_brands
+  module:
+    - field_collection
+    - text
+id: block_content.clients.default
+targetEntityType: block_content
+bundle: clients
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_brands:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden:
+  langcode: true

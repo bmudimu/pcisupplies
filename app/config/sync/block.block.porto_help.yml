@@ -1,0 +1,22 @@
+uuid: 0c130394-02d0-4040-95cc-0fa860769347
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - porto
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: porto_help
+theme: porto
+region: content
+weight: -18
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

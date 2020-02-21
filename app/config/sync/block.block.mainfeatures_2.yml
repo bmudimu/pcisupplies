@@ -1,0 +1,29 @@
+uuid: b879f1cd-32b8-4d5b-883a-e55822de79f3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:227722d9-1d08-43c6-ad5c-0b01806dc033'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: mainfeatures_2
+theme: porto
+region: footer_13
+weight: 0
+provider: null
+plugin: 'block_content:227722d9-1d08-43c6-ad5c-0b01806dc033'
+settings:
+  id: 'block_content:227722d9-1d08-43c6-ad5c-0b01806dc033'
+  label: 'Main Features'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

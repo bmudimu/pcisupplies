@@ -1,0 +1,19 @@
+uuid: 757614f4-3847-4b5f-9314-6e853c9b986e
+langcode: en
+status: true
+dependencies: {  }
+id: sa_vat_15
+label: 'South African VAT'
+plugin: custom
+configuration:
+  display_label: vat
+  round: true
+  rates:
+    -
+      id: f179b4f7-7f0a-498f-a562-d27229085a13
+      label: '15% VAT'
+      percentage: '0.15'
+  territories:
+    -
+      country_code: ZA
+  display_inclusive: true

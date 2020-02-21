@@ -1,0 +1,35 @@
+uuid: 07a8772b-a437-4ed1-b73c-a08bd8fb0b8c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:banner_slider:3c02ad63-18e6-45b1-92a9-a5949ce01a0b'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: bannerrightsidebar
+theme: porto
+region: right_sidebar
+weight: -17
+provider: null
+plugin: 'block_content:3c02ad63-18e6-45b1-92a9-a5949ce01a0b'
+settings:
+  id: 'block_content:3c02ad63-18e6-45b1-92a9-a5949ce01a0b'
+  label: 'Banner Right Sidebar'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /product/14
+    negate: false
+    context_mapping: {  }

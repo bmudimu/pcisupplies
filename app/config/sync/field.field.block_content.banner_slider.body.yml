@@ -1,0 +1,23 @@
+uuid: 07eb2eb8-4500-46c7-8a34-8c938d2fbc7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banner_slider
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.banner_slider.body
+field_name: body
+entity_type: block_content
+bundle: banner_slider
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

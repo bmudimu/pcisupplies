@@ -1,0 +1,25 @@
+uuid: 66175e61-b527-4c48-8e75-f288368ad19e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.newsletter
+    - field.storage.block_content.field_block_newsletter
+  module:
+    - block_field
+id: block_content.newsletter.field_block_newsletter
+field_name: field_block_newsletter
+entity_type: block_content
+bundle: newsletter
+label: 'Block Newsletter'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: simplenews_subscription_block
+    settings: {  }
+default_value_callback: ''
+settings:
+  plugin_ids: {  }
+field_type: block_field

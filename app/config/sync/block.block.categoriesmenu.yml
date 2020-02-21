@@ -1,0 +1,34 @@
+uuid: 70e2b011-7ddd-4057-94b8-37ceeef8712e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categories-menu
+  module:
+    - block_class
+    - system
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: categoriesmenu
+theme: porto
+region: right_sidebar
+weight: -23
+provider: null
+plugin: 'system_menu_block:categories-menu'
+settings:
+  id: 'system_menu_block:categories-menu'
+  label: Category
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

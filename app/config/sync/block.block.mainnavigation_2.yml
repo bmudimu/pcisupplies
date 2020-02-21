@@ -1,0 +1,29 @@
+uuid: 725d324c-d1d7-4095-87ea-0636729d95f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - block_class
+    - system
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: mainnavigation_2
+theme: porto
+region: menu_mobile
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

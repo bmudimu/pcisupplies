@@ -1,0 +1,19 @@
+uuid: 64321bba-d852-48c6-b7a8-0f147b829e62
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banners_area
+    - field.storage.block_content.field_link_image_one
+id: block_content.banners_area.field_link_image_one
+field_name: field_link_image_one
+entity_type: block_content
+bundle: banners_area
+label: 'Link Image one'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

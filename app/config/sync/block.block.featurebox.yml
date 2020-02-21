@@ -1,0 +1,31 @@
+uuid: 0cd58c7c-b540-4a1a-8ca0-0a27d410c50f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:05254019-946e-47da-bc3d-08f4fd2ffa25'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: featurebox
+theme: porto
+region: right_sidebar
+weight: -18
+provider: null
+plugin: 'block_content:05254019-946e-47da-bc3d-08f4fd2ffa25'
+settings:
+  id: 'block_content:05254019-946e-47da-bc3d-08f4fd2ffa25'
+  label: 'Feature Box'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /product/14
+    negate: false
+    context_mapping: {  }

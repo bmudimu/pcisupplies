@@ -1,0 +1,8 @@
+uuid: d714654e-869b-4c83-8902-7ccc0dd9f174
+langcode: en
+status: true
+dependencies: {  }
+name: 'Brand Categories'
+vid: brand_categories
+description: ''
+weight: 0

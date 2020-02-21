@@ -1,0 +1,41 @@
+uuid: 8c102f7f-3c64-4f54-a8c9-9e7aaf6bf7bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_history
+    - field.field.block_content.our_history.body
+    - field.field.block_content.our_history.field_header_title
+    - field.field.block_content.our_history.field_our_history
+  module:
+    - field_collection
+    - text
+id: block_content.our_history.default
+targetEntityType: block_content
+bundle: our_history
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_header_title:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_our_history:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+    region: content
+hidden:
+  langcode: true

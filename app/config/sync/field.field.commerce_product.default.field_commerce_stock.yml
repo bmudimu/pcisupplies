@@ -1,0 +1,23 @@
+uuid: 525abd0c-41e3-4f43-b87b-c08114b6835a
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_commerce_stock
+  module:
+    - options
+id: commerce_product.default.field_commerce_stock
+field_name: field_commerce_stock
+entity_type: commerce_product
+bundle: default
+label: 'Commerce stock'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

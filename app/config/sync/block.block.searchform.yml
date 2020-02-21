@@ -1,0 +1,21 @@
+uuid: 79d1456d-cf99-4706-a56e-6252cdf754c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - porto
+id: searchform
+theme: porto
+region: search
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  provider: search
+  label_display: '0'
+  page_id: ''
+visibility: {  }

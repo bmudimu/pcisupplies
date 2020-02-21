@@ -1,0 +1,15 @@
+uuid: f9862b74-6c6a-46ec-a506-d5257a9ac652
+langcode: en
+status: true
+dependencies: {  }
+name: thumbnail_328x300
+label: Thumbnail(328x300)
+effects:
+  9f68303f-9530-414c-bf64-3a35469b3946:
+    uuid: 9f68303f-9530-414c-bf64-3a35469b3946
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 328
+      height: 300
+      anchor: center-center

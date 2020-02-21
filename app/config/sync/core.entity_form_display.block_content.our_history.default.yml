@@ -1,0 +1,57 @@
+uuid: 74abe7f1-d228-4d3f-bd74-1d4e40feb760
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.our_history
+    - field.field.block_content.our_history.body
+    - field.field.block_content.our_history.field_header_title
+    - field.field.block_content.our_history.field_our_history
+  module:
+    - field_collection
+    - text
+id: block_content.our_history.default
+targetEntityType: block_content
+bundle: our_history
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  field_header_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_our_history:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_embed
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

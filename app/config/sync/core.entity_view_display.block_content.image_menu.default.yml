@@ -1,0 +1,26 @@
+uuid: 4b593bf6-3d1d-4e84-80e0-60ff45f8c97b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.image_menu
+    - field.field.block_content.image_menu.field_image
+    - image.style.thumbnail_328x300
+  module:
+    - image
+id: block_content.image_menu.default
+targetEntityType: block_content
+bundle: image_menu
+mode: default
+content:
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: thumbnail_328x300
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

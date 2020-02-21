@@ -1,0 +1,8 @@
+uuid: c271b04e-872f-40f3-af50-73c8891ec2c5
+langcode: en
+status: true
+dependencies: {  }
+id: banners_area
+label: 'Banners area'
+revision: 0
+description: ''

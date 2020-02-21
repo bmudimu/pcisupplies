@@ -1,0 +1,19 @@
+uuid: e4d2b0fe-b6fc-4960-8057-d1add96f82ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.banners_area
+    - field.storage.block_content.field_link_image_two
+id: block_content.banners_area.field_link_image_two
+field_name: field_link_image_two
+entity_type: block_content
+bundle: banners_area
+label: 'Link Image two'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

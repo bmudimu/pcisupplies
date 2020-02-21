@@ -1,0 +1,19 @@
+uuid: 7ded1280-92bf-4c85-9970-a0b7824a865a
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_collection
+id: block_content.field_banner_image
+field_name: field_banner_image
+entity_type: block_content
+type: field_collection
+settings: {  }
+module: field_collection
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

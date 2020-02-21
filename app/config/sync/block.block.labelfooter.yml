@@ -1,0 +1,29 @@
+uuid: 0962c69b-cbe8-4d8e-b327-aeca0d035c32
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d780f231-f65a-462f-b9ce-d11f9f49ab12'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: labelfooter
+theme: porto
+region: label_footer
+weight: 0
+provider: null
+plugin: 'block_content:d780f231-f65a-462f-b9ce-d11f9f49ab12'
+settings:
+  id: 'block_content:d780f231-f65a-462f-b9ce-d11f9f49ab12'
+  label: 'Label Footer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 8f7b9069-01c5-496e-b8fe-71f802554a33
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.default
+    - field.storage.commerce_product.field_layout_tab
+  module:
+    - options
+id: commerce_product.default.field_layout_tab
+field_name: field_layout_tab
+entity_type: commerce_product
+bundle: default
+label: 'Layout Tab'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

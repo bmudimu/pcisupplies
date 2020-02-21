@@ -1,0 +1,8 @@
+uuid: 2a3338de-bf55-49b7-a7c6-2fc08399c7d6
+langcode: en
+status: true
+dependencies: {  }
+id: clients
+label: Clients
+revision: 0
+description: ''

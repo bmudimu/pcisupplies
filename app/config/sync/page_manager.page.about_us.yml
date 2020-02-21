@@ -1,0 +1,12 @@
+uuid: 4375b8e5-a13b-402c-bd99-a6c3d5db9960
+langcode: en
+status: true
+dependencies: {  }
+id: about_us
+label: 'About Us'
+description: ''
+use_admin_theme: false
+path: /about-us
+access_logic: and
+access_conditions: {  }
+parameters: {  }

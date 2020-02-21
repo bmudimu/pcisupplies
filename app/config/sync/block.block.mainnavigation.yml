@@ -1,0 +1,24 @@
+uuid: 14218cb1-7ef6-45f3-a9e4-c0142f4a22ad
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_class
+    - we_megamenu
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: mainnavigation
+theme: porto
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'we_megamenu_block:main'
+settings:
+  id: 'we_megamenu_block:main'
+  label: 'Main navigation'
+  provider: we_megamenu
+  label_display: '0'
+visibility: {  }

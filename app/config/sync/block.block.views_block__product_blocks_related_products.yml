@@ -1,0 +1,34 @@
+uuid: 3a986b72-2484-4aa6-949e-ceb9ed365252
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.product_blocks
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__product_blocks_related_products
+theme: porto
+region: related_product
+weight: 0
+provider: null
+plugin: 'views_block:product_blocks-related_products'
+settings:
+  id: 'views_block:product_blocks-related_products'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '/product/*'
+    negate: false
+    context_mapping: {  }

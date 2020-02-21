@@ -1,0 +1,8 @@
+uuid: 2b429778-4b27-43d3-b9cb-20e0da3940fe
+langcode: en
+status: true
+dependencies: {  }
+id: product
+label: Product
+target_entity_type_id: commerce_product
+description: ''

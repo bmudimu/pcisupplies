@@ -1,0 +1,8 @@
+uuid: eea2772d-9d03-492d-85ec-4874a386db32
+langcode: en
+status: true
+dependencies: {  }
+id: image_menu
+label: 'Image Menu'
+revision: 0
+description: ''

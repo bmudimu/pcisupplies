@@ -1,0 +1,34 @@
+uuid: 77eac8c8-b924-4ae8-80df-22cfc4d4095f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - porto
+third_party_settings:
+  block_class:
+    classes: ''
+id: views_block__taxonomy_block_1
+theme: porto
+region: left_sidebar
+weight: -10
+provider: null
+plugin: 'views_block:taxonomy-block_1'
+settings:
+  id: 'views_block:taxonomy-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/category-2col\r\n/category-3col\r\n/category-4col\r\n/category-5col\r\n/taxonomy/term/*\r\n"
+    negate: false
+    context_mapping: {  }
