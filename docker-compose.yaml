@@ -1,0 +1,24 @@
+version: '3'
+services:
+  db:
+    image: mariadb:10.4
+    environment:
+      MYSQL_DATABASE: pcistore
+      MYSQL_ROOT_PASSWORD: pc1st0re
+    volumes:
+      - db_data://var/lib/mysql
+    restart: always
+  drupal:
+    depends_on:
+      - db
+    build: .
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - .//app://app
+        #- ./config/vhost.conf:/etc/apache2/sites-enabled/vhost-ssl.conf
+        #- /etc/letsencrypt: /etc/letsencrypt: ro
+    restart: always
+volumes:
+  db_data:
