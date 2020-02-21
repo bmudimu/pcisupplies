@@ -47,6 +47,7 @@
         "drush/drush": "^9.7.1 | ^10.0.0",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
+        "wikimedia/composer-merge-plugin": "^1.4",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
@@ -85,6 +86,11 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+	"merge-plugin": {
+		"include": [
+			"web/modules/contrib/webform/composer.libraries.json"
+		]
+	},
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"

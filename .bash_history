@@ -242,3 +242,70 @@ ls
 sudo mv banner* app/web/sites/default/files/2018-04/
 ls
 docker exec -it bmudimu_drupal_1 bash
+ls
+sudo mv pcilogo.png app/web/sites/default/files/2018-04/
+docker exec -it bmudimu_drupal_1 bash
+sudo mv logo-* app/web/sites/default/files/logo-shop-red.png
+docker exec -it bmudimu_drupal_1 bash
+ls
+docker exec -it bmudimu_drupal_1 bash
+git add -A
+git status
+sudo git add -A
+git status
+ls
+git commit -m "Initial commit of pci-site"
+which git
+cd /opt/bitnami/apps/[app-name]/htdocs
+cd /opt/bitnami/apps
+cd /opt/
+ls
+cd containerd
+ls
+sudo ls
+cd bin
+ls
+sudo ls
+cd /
+git config --global user.name "Brian Mudimu"
+git config --global user.email "bmudimu@gmail.com"
+sudo git add -A
+git status
+cd ~
+git status
+git add -A
+git status
+git commit -m "Initial commit of pci-site"
+git status
+git add app
+git status
+cd app
+ls
+ls -a
+git status
+rm -rf .git
+sudo rm -rf .git
+ls
+cd ..
+git status
+git add -A
+git status
+git rm --cached app/submodule
+git init
+git status
+cd .git
+ls
+cd config
+vi config
+ls -a
+cd ..
+rm -rf .git
+ls
+git init
+git status
+git add -A
+clear
+git status
+clear
+git commit -m "Initial commit of pci-supplies-site"
+git status
