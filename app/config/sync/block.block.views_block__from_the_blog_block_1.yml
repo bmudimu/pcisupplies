@@ -5,14 +5,10 @@ dependencies:
   config:
     - views.view.from_the_blog
   module:
-    - block_class
     - system
     - views
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: views_block__from_the_blog_block_1
 theme: porto
 region: right_sidebar

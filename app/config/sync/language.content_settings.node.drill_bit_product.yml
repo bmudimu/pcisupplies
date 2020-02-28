@@ -1,0 +1,11 @@
+uuid: b379b4ff-096b-4e5e-96a2-6b342c66b7fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.drill_bit_product
+id: node.drill_bit_product
+target_entity_type_id: node
+target_bundle: drill_bit_product
+default_langcode: site_default
+language_alterable: false

@@ -1,7 +1,7 @@
 hash_expiration: 86400
 newsletter:
   format: plain
-  priority: 0
+  priority: 3
   receipt: true
   from_address: info@promath.co.za
   from_name: 'PCI Supplies'

@@ -3,13 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-    - block_class
     - simplenews
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: simplenewssubscription
 theme: porto
 region: footer_14
@@ -18,11 +14,11 @@ provider: null
 plugin: simplenews_subscription_block
 settings:
   id: simplenews_subscription_block
-  label: 'Be the First to Know'
+  label: 'Stay Up to Date'
   provider: simplenews
   label_display: visible
   newsletters:
     default: default
-  message: '<p class="newsletter-info">Get all the latest information on Events,<br> Sales and Offers. Sign up for newsletter today.</p>'
+  message: '<p class="newsletter-info">Get all the latest updates on Stock Availability,<br> Stock offers and New Products. Sign up for newsletter today.</p>'
   unique_id: 65513b7b-b454-493a-be0b-d1ad08fb732b
 visibility: {  }

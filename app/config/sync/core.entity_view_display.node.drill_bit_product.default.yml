@@ -1,0 +1,40 @@
+uuid: 24af55de-c941-4df8-9f1b-ebd066ff48b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drill_bit_product.body
+    - field.field.node.drill_bit_product.field_price
+    - node.type.drill_bit_product
+  module:
+    - commerce_price
+    - text
+    - user
+id: node.drill_bit_product.default
+targetEntityType: node
+bundle: drill_bit_product
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_price:
+    weight: 102
+    label: above
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+    type: commerce_price_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

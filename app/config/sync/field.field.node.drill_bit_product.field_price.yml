@@ -1,0 +1,24 @@
+uuid: 66da4e23-ed21-4dc5-a961-3a3be71cfc03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.drill_bit_product
+  module:
+    - commerce_price
+id: node.drill_bit_product.field_price
+field_name: field_price
+entity_type: node
+bundle: drill_bit_product
+label: Price
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  available_currencies:
+    - '0'
+    - ZAR
+field_type: commerce_price

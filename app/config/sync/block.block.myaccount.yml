@@ -5,13 +5,9 @@ dependencies:
   content:
     - 'block_content:basic:df6f1fbc-e880-47ca-b177-b2e610807aae'
   module:
-    - block_class
     - block_content
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: myaccount
 theme: porto
 region: footer_11

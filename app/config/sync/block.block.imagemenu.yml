@@ -5,13 +5,9 @@ dependencies:
   content:
     - 'block_content:image_menu:07ad3888-9e3f-4bcd-a241-76ce8261157e'
   module:
-    - block_class
     - block_content
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: imagemenu
 theme: porto
 region: header

@@ -5,13 +5,9 @@ dependencies:
   config:
     - system.menu.main
   module:
-    - block_class
     - system
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: mainnavigation_2
 theme: porto
 region: menu_mobile

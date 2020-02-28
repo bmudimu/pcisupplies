@@ -8,7 +8,6 @@ dependencies:
     - field.field.commerce_product.default.field_comments
     - field.field.commerce_product.default.field_commerce_stock
     - field.field.commerce_product.default.field_description
-    - field.field.commerce_product.default.field_fivestar
     - field.field.commerce_product.default.field_image
     - field.field.commerce_product.default.field_image_hover
     - field.field.commerce_product.default.field_layout_tab
@@ -21,7 +20,6 @@ dependencies:
   module:
     - comment
     - commerce
-    - fivestar
     - image
     - path
     - text
@@ -69,13 +67,6 @@ content:
       show_summary: false
     third_party_settings: {  }
     type: text_textarea_with_summary
-    region: content
-  field_fivestar:
-    weight: 20
-    settings:
-      fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
-    third_party_settings: {  }
-    type: fivestar_stars
     region: content
   field_image:
     weight: 13

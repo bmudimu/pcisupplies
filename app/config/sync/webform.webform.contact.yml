@@ -1,9 +1,12 @@
+uuid: 95263dbf-6c8e-40aa-8044-7ac1d41e79f6
 langcode: en
 status: open
 dependencies:
   enforced:
     module:
       - webform
+_core:
+  default_config_hash: W8LHFRO51r0rBKzjUCRv8qxnRs6aTKBTxa8jwn7tBP8
 open: null
 close: null
 weight: 0
@@ -194,9 +197,9 @@ handlers:
       cc_options: {  }
       bcc_mail: ''
       bcc_options: {  }
-      from_mail: _default
+      from_mail: '[site:mail]'
       from_options: {  }
-      from_name: _default
+      from_name: '[site:name]'
       subject: '[webform_submission:values:subject:raw]'
       body: '[webform_submission:values:message:value]'
       excluded_elements: {  }
@@ -251,6 +254,3 @@ handlers:
       theme_name: ''
       parameters: {  }
 variants: {  }
-uuid: 95263dbf-6c8e-40aa-8044-7ac1d41e79f6
-_core:
-  default_config_hash: W8LHFRO51r0rBKzjUCRv8qxnRs6aTKBTxa8jwn7tBP8

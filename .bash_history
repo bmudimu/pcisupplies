@@ -309,3 +309,104 @@ git status
 clear
 git commit -m "Initial commit of pci-supplies-site"
 git status
+ls
+sudo mv logo-* app/web/sites/default/files/2018-03/
+docker exec -it bmudimu_drupal_1 bash
+sudo mv logo-* app/web/sites/default/files/2018-03/
+docker exec -it bmudimu_drupal_1 bash
+sudo mv brand-* app/web/sites/default/files/2018-04/
+ls
+sudo mv brand* app/web/sites/default/files/2018-04/
+docker exec -it bmudimu_drupal_1 bash
+sudo mv newsletter* app/web/sites/default/files/2018-03/
+docker exec -it bmudimu_drupal_1 bash
+sudo mv newsletter* app/web/sites/default/files/2018-03/
+docker exec -it bmudimu_drupal_1 bash
+ls
+sudo mv settings.php app/web/sites/default/
+docker exec -it bmudimu_drupal_1 bash
+ls
+ls -a
+sudo mv .htaccess app/config/sync/
+docker exec -it bmudimu_drupal_1 bash
+git status
+cd app
+cd config
+l
+ls
+cd sync
+ls =a
+ls -a
+cd ..
+cd ~
+ls
+cd config
+ls
+rm =rf config
+rm -rf config
+ls
+cd ..
+rm -rf config
+ls
+clear
+docker add -A
+git add -A
+git status
+git show
+clear
+git commit -m "Fixed pemissions for apache"
+git status
+git push origin master
+git push https://github/bmudimu master
+git push https://github.com/bmudimu master
+git login
+git push bmudimu/pcisupplies master
+git push https://github.com/bmudimu/pcisupplies master
+git push https://github.com/bmudimu master
+git push https://github.com/bmudimu/ master
+git remote add origin https://github.com/bmudimu/pcisupplies.git
+git push origin master
+clear
+docker exec -it bmudimu_drupal_1 bash
+git status
+git add -A
+git commit -m "Added site configuration "
+git status
+git push origin master
+clear
+cd app
+cd web
+rm modules.zip
+sudo rm modules.zip
+ls
+cd sites
+cd default
+ls
+sudo rm files.zip
+cd ..
+cd /app
+cd app
+cd ..
+ls
+git status
+git add -A
+git commit -m "Remove ziped files "
+git push origin master
+exit
+docker exec -it bmudimu_drupal_ bash
+docker ps
+docker exec -it bmudimu_drupal_1 bash
+sudo mv menu-bg.png app/web/sites/default/files/2018-03
+docker exec -it bmudimu_drupal_1 bash
+sudo mv banner6.jpg app/web/sites/default/files/2018-04
+docker exec -it bmudimu_drupal_1 bash
+sudo mv banner*.jpg app/web/sites/default/files/2018-04
+docker exec -it bmudimu_drupal_1 bash
+sudo mv banner*.jpg app/web/sites/default/files/2018-04
+docker exec -it bmudimu_drupal_1 bash
+sudo mv banner*.jpg app/web/sites/default/files/2018-04
+docker exec -it bmudimu_drupal_1 bash
+ls
+sudo mv payfast.zip app/web/modules/contrib/commerce/modules/
+docker exec -it bmudimu_drupal_1 bash
+exit

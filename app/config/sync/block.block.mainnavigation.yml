@@ -3,13 +3,9 @@ langcode: en
 status: true
 dependencies:
   module:
-    - block_class
     - we_megamenu
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: mainnavigation
 theme: porto
 region: primary_menu

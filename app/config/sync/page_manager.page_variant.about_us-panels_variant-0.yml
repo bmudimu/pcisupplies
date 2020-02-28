@@ -7,7 +7,6 @@ dependencies:
   content:
     - 'block_content:about_us:28f33c62-a064-4f58-9ca2-ff51c4bc3839'
     - 'block_content:basic:515d6cfb-e59c-4b80-8c2f-954a7cecb979'
-    - 'block_content:our_history:0c7fc34d-c715-4632-b18b-50ce633c8a7c'
   module:
     - block_content
     - panels
@@ -39,18 +38,6 @@ variant_settings:
       region: content
       weight: 0
       uuid: c0a54617-1bf7-4cf2-84dd-2e4ecc353965
-      context_mapping: {  }
-    8b9ee738-c004-431d-aaf4-97344331b161:
-      id: 'block_content:0c7fc34d-c715-4632-b18b-50ce633c8a7c'
-      label: 'Our History'
-      provider: block_content
-      label_display: '0'
-      status: true
-      info: ''
-      view_mode: full
-      region: content
-      weight: 1
-      uuid: 8b9ee738-c004-431d-aaf4-97344331b161
       context_mapping: {  }
   id: panels_variant
   uuid: 23aba66d-55ce-48d3-b06d-cf76fce4f8dc

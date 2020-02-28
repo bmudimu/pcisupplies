@@ -1,0 +1,7 @@
+uuid: 3f34a7c9-e72c-409f-818d-50eb568f3a33
+langcode: en
+status: true
+dependencies: {  }
+id: configuration
+label: Configuration
+elementType: commerce_product_rendered_attribute

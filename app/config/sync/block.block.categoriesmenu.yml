@@ -5,13 +5,9 @@ dependencies:
   config:
     - system.menu.categories-menu
   module:
-    - block_class
     - system
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: categoriesmenu
 theme: porto
 region: right_sidebar

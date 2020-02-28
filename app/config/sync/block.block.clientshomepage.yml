@@ -1,0 +1,31 @@
+uuid: 14488dfa-2b7f-454f-994d-4845e106a17a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:clients:da2c5921-5ebb-4422-a25d-2b262a39e87f'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: clientshomepage
+theme: porto
+region: after_content
+weight: 0
+provider: null
+plugin: 'block_content:da2c5921-5ebb-4422-a25d-2b262a39e87f'
+settings:
+  id: 'block_content:da2c5921-5ebb-4422-a25d-2b262a39e87f'
+  label: 'Clients Home Page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

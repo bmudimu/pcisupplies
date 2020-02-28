@@ -14,10 +14,14 @@
 ~Msle0~/\<config\>
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1582894029,,"q!"
 :q
-|2,0,1582277404,,"q"
+|2,0,1582894014,,"q"
 :x
-|2,0,1582217058,,"x"
+|2,0,1582894009,,"x"
+:s
+|2,0,1582893520,,"s"
 
 # Search String History (newest to oldest):
 ? \<config\>
@@ -39,20 +43,20 @@
 |3,1,36,0,1,0,1582216525," "
 
 # File marks:
-'0  1  0  ~/.git/config
-|4,48,1,0,1582277404,"~/.git/config"
-'1  23  7  ~/docker-compose.yaml
-|4,49,23,7,1582217058,"~/docker-compose.yaml"
-'2  25  4  ~/apache-drupal.conf
-|4,50,25,4,1582217009,"~/apache-drupal.conf"
-'3  1  0  ~/apache-drupal,conf
-|4,51,1,0,1582216935,"~/apache-drupal,conf"
-'4  12  2  ~/docker-compose.yaml
-|4,52,12,2,1582216696,"~/docker-compose.yaml"
+'0  4  4  ~/app/mail.php
+|4,48,4,4,1582894029,"~/app/mail.php"
+'1  1  0  ~/.git/config
+|4,49,1,0,1582277404,"~/.git/config"
+'2  23  7  ~/docker-compose.yaml
+|4,50,23,7,1582217058,"~/docker-compose.yaml"
+'3  25  4  ~/apache-drupal.conf
+|4,51,25,4,1582217009,"~/apache-drupal.conf"
+'4  1  0  ~/apache-drupal,conf
+|4,52,1,0,1582216935,"~/apache-drupal,conf"
 '5  12  2  ~/docker-compose.yaml
 |4,53,12,2,1582216696,"~/docker-compose.yaml"
-'6  22  0  ~/docker-compose.yaml
-|4,54,22,0,1582216555,"~/docker-compose.yaml"
+'6  12  2  ~/docker-compose.yaml
+|4,54,12,2,1582216696,"~/docker-compose.yaml"
 '7  22  0  ~/docker-compose.yaml
 |4,55,22,0,1582216555,"~/docker-compose.yaml"
 '8  22  0  ~/docker-compose.yaml
@@ -61,16 +65,34 @@
 |4,57,22,0,1582216555,"~/docker-compose.yaml"
 
 # Jumplist (newest first):
+-'  4  4  ~/app/mail.php
+|4,39,4,4,1582894029,"~/app/mail.php"
+-'  1  0  ~/app/mail.php
+|4,39,1,0,1582893512,"~/app/mail.php"
+-'  1  0  ~/.git/config
+|4,39,1,0,1582277404,"~/.git/config"
 -'  1  0  ~/.git/config
 |4,39,1,0,1582277404,"~/.git/config"
 -'  23  7  ~/docker-compose.yaml
 |4,39,23,7,1582217058,"~/docker-compose.yaml"
 -'  23  7  ~/docker-compose.yaml
 |4,39,23,7,1582217058,"~/docker-compose.yaml"
+-'  23  7  ~/docker-compose.yaml
+|4,39,23,7,1582217058,"~/docker-compose.yaml"
+-'  23  7  ~/docker-compose.yaml
+|4,39,23,7,1582217058,"~/docker-compose.yaml"
 -'  20  2  ~/docker-compose.yaml
 |4,39,20,2,1582217039,"~/docker-compose.yaml"
 -'  20  2  ~/docker-compose.yaml
 |4,39,20,2,1582217039,"~/docker-compose.yaml"
+-'  20  2  ~/docker-compose.yaml
+|4,39,20,2,1582217039,"~/docker-compose.yaml"
+-'  20  2  ~/docker-compose.yaml
+|4,39,20,2,1582217039,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582217028,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582217028,"~/docker-compose.yaml"
 -'  12  2  ~/docker-compose.yaml
 |4,39,12,2,1582217028,"~/docker-compose.yaml"
 -'  12  2  ~/docker-compose.yaml
@@ -83,6 +105,22 @@
 |4,39,25,4,1582217009,"~/apache-drupal.conf"
 -'  25  4  ~/apache-drupal.conf
 |4,39,25,4,1582217009,"~/apache-drupal.conf"
+-'  25  4  ~/apache-drupal.conf
+|4,39,25,4,1582217009,"~/apache-drupal.conf"
+-'  25  4  ~/apache-drupal.conf
+|4,39,25,4,1582217009,"~/apache-drupal.conf"
+-'  25  4  ~/apache-drupal.conf
+|4,39,25,4,1582217009,"~/apache-drupal.conf"
+-'  25  4  ~/apache-drupal.conf
+|4,39,25,4,1582217009,"~/apache-drupal.conf"
+-'  6  0  ~/apache-drupal.conf
+|4,39,6,0,1582216961,"~/apache-drupal.conf"
+-'  6  0  ~/apache-drupal.conf
+|4,39,6,0,1582216961,"~/apache-drupal.conf"
+-'  6  0  ~/apache-drupal.conf
+|4,39,6,0,1582216961,"~/apache-drupal.conf"
+-'  6  0  ~/apache-drupal.conf
+|4,39,6,0,1582216961,"~/apache-drupal.conf"
 -'  6  0  ~/apache-drupal.conf
 |4,39,6,0,1582216961,"~/apache-drupal.conf"
 -'  6  0  ~/apache-drupal.conf
@@ -107,6 +145,38 @@
 |4,39,1,0,1582216935,"~/apache-drupal,conf"
 -'  1  0  ~/apache-drupal,conf
 |4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  1  0  ~/apache-drupal,conf
+|4,39,1,0,1582216935,"~/apache-drupal,conf"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
+-'  12  2  ~/docker-compose.yaml
+|4,39,12,2,1582216696,"~/docker-compose.yaml"
 -'  12  2  ~/docker-compose.yaml
 |4,39,12,2,1582216696,"~/docker-compose.yaml"
 -'  12  2  ~/docker-compose.yaml
@@ -144,6 +214,38 @@
 -'  22  0  ~/docker-compose.yaml
 |4,39,22,0,1582216583,"~/docker-compose.yaml"
 -'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216583,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
 |4,39,22,0,1582216555,"~/docker-compose.yaml"
 -'  22  0  ~/docker-compose.yaml
 |4,39,22,0,1582216555,"~/docker-compose.yaml"
@@ -159,110 +261,23 @@
 |4,39,22,0,1582216555,"~/docker-compose.yaml"
 -'  22  0  ~/docker-compose.yaml
 |4,39,22,0,1582216555,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216451,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  8  ~/docker-compose.yaml
-|4,39,21,8,1582216338,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  21  25  ~/docker-compose.yaml
-|4,39,21,25,1582216214,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  22  18  ~/docker-compose.yaml
-|4,39,22,18,1582216097,"~/docker-compose.yaml"
--'  25  37  ~/apache-drupal.conf
-|4,39,25,37,1582215014,"~/apache-drupal.conf"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
+-'  22  0  ~/docker-compose.yaml
+|4,39,22,0,1582216555,"~/docker-compose.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/app/mail.php
+	*	1582894023	0
+	"	4	4
+	^	3	4
+	.	8	3
+	+	2	42
+	+	3	36
+	+	2	47
+	+	5	53
+	+	8	3
 
 > ~/.git/config
 	*	1582277393	0

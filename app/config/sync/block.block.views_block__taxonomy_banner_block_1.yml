@@ -5,13 +5,9 @@ dependencies:
   config:
     - views.view.taxonomy_banner
   module:
-    - block_class
     - views
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: views_block__taxonomy_banner_block_1
 theme: porto
 region: content

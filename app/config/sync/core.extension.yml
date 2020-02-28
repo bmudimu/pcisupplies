@@ -16,6 +16,8 @@ module:
   commerce_log: 0
   commerce_number_pattern: 0
   commerce_order: 0
+  commerce_payfast: 0
+  commerce_payment: 0
   commerce_price: 0
   commerce_product: 0
   commerce_promotion: 0
@@ -37,7 +39,6 @@ module:
   field_ui: 0
   file: 0
   filter: 0
-  fivestar: 0
   flippy: 0
   help: 0
   history: 0
@@ -47,6 +48,7 @@ module:
   language: 0
   layout_discovery: 0
   link: 0
+  mailsystem: 0
   md_slider: 0
   media: 0
   menu_ui: 0
@@ -66,7 +68,9 @@ module:
   search: 0
   shortcut: 0
   simplenews: 0
+  smtp: 0
   state_machine: 0
+  swiftmailer: 0
   system: 0
   taxonomy: 0
   text: 0

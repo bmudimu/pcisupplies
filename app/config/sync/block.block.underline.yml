@@ -5,14 +5,10 @@ dependencies:
   content:
     - 'block_content:basic:4bb37b3a-cf38-4d24-8713-cc50f3aaf45c'
   module:
-    - block_class
     - block_content
     - system
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: underline
 theme: porto
 region: right_sidebar

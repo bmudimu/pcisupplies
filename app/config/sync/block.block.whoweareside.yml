@@ -1,0 +1,31 @@
+uuid: 7d276525-7e2c-467a-a133-8b6ca9998f67
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5fe87ee2-f2c6-4b9f-a9b6-c4970f90fab2'
+  module:
+    - block_content
+    - system
+  theme:
+    - porto
+id: whoweareside
+theme: porto
+region: right_sidebar
+weight: -15
+provider: null
+plugin: 'block_content:5fe87ee2-f2c6-4b9f-a9b6-c4970f90fab2'
+settings:
+  id: 'block_content:5fe87ee2-f2c6-4b9f-a9b6-c4970f90fab2'
+  label: 'Who We Are -Side'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

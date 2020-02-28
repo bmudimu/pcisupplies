@@ -9,7 +9,6 @@ dependencies:
     - field.field.commerce_product.default.field_comments
     - field.field.commerce_product.default.field_commerce_stock
     - field.field.commerce_product.default.field_description
-    - field.field.commerce_product.default.field_fivestar
     - field.field.commerce_product.default.field_image
     - field.field.commerce_product.default.field_image_hover
     - field.field.commerce_product.default.field_layout_tab
@@ -121,7 +120,6 @@ hidden:
   created: true
   field_comments: true
   field_commerce_stock: true
-  field_fivestar: true
   field_product_attributes: true
   langcode: true
   stores: true

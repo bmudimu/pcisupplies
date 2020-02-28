@@ -3,14 +3,10 @@ langcode: en
 status: true
 dependencies:
   module:
-    - block_class
     - md_slider
     - system
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: homepage
 theme: porto
 region: slide_show

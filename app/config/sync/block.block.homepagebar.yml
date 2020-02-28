@@ -5,14 +5,10 @@ dependencies:
   content:
     - 'block_content:basic:e4c2b418-7caa-4cf4-bb88-57f894dfebdb'
   module:
-    - block_class
     - block_content
     - system
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: homepagebar
 theme: porto
 region: before_content

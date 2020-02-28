@@ -5,13 +5,9 @@ dependencies:
   content:
     - 'block_content:basic:d780f231-f65a-462f-b9ce-d11f9f49ab12'
   module:
-    - block_class
     - block_content
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: labelfooter
 theme: porto
 region: label_footer

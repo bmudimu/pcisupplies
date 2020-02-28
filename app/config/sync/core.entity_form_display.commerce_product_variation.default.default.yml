@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
+    - field.field.commerce_product_variation.default.attribute_configuration
   module:
     - commerce_price
 _core:
@@ -13,12 +14,24 @@ targetEntityType: commerce_product_variation
 bundle: default
 mode: default
 content:
+  attribute_configuration:
+    type: options_select
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
   langcode:
     type: language_select
     weight: 2
     region: content
     settings:
       include_locked: true
+    third_party_settings: {  }
+  list_price:
+    type: commerce_list_price
+    weight: -1
+    region: content
+    settings: {  }
     third_party_settings: {  }
   price:
     type: commerce_price_default

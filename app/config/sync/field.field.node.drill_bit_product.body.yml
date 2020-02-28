@@ -1,0 +1,23 @@
+uuid: b830ad6c-178f-4174-8225-0fe6d86ce59e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.drill_bit_product
+  module:
+    - text
+id: node.drill_bit_product.body
+field_name: body
+entity_type: node
+bundle: drill_bit_product
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

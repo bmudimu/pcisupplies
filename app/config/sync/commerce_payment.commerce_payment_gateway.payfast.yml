@@ -1,0 +1,34 @@
+uuid: ad6b10ff-4c36-49b3-990b-0da41b0460f5
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_payfast
+id: payfast
+label: PayFast
+weight: null
+plugin: payfast
+configuration:
+  redirect_method: post
+  display_label: PayFast
+  mode: test
+  payment_method_types:
+    - credit_card
+  collect_billing_information: true
+  merchant_id: '15100000'
+  merchant_key: etv6p5ovb9ior
+  passphrase: pc1_Supplies-2020
+conditions:
+  -
+    plugin: order_total_price
+    configuration:
+      operator: '>'
+      amount:
+        number: '100.00'
+        currency_code: ZAR
+  -
+    plugin: order_currency
+    configuration:
+      currencies:
+        - ZAR
+conditionOperator: AND

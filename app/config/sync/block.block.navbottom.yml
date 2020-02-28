@@ -5,13 +5,9 @@ dependencies:
   content:
     - 'block_content:basic:e7a35194-086d-4d84-85e5-593b4a95669e'
   module:
-    - block_class
     - block_content
   theme:
     - porto
-third_party_settings:
-  block_class:
-    classes: ''
 id: navbottom
 theme: porto
 region: nav_bottom

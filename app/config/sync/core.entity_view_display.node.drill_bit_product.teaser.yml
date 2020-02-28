@@ -1,0 +1,33 @@
+uuid: e7dca3ac-8d19-42c9-9676-e6332ada5b0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.drill_bit_product.body
+    - field.field.node.drill_bit_product.field_price
+    - node.type.drill_bit_product
+  module:
+    - text
+    - user
+id: node.drill_bit_product.teaser
+targetEntityType: node
+bundle: drill_bit_product
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_price: true
+  langcode: true
