@@ -410,3 +410,96 @@ ls
 sudo mv payfast.zip app/web/modules/contrib/commerce/modules/
 docker exec -it bmudimu_drupal_1 bash
 exit
+ls
+cd app
+ls
+vi mail.php
+sudo vi mail.php
+docker ps
+docker exec -it a5a3 bash
+docker ps
+docker exec -it a5a3 bash
+echo testing mail-s Bla brian@promath.co.za
+echo testing | mail-s Bla brian@promath.co.za
+docker exec -it a5a3 bash
+telnet mail.port25.com 25
+docker exec -it a5a3 bash
+clear
+docker exec -it a5a3 bash
+cd ..
+ls
+cd app
+ls
+cd ..
+git status
+git add -A
+git status
+git commit -m "Cleared a lot of config errors"
+git status
+git push original master
+git push origin master
+exit
+docker exec -it a5a3 bash
+sudo apt-get update
+cls
+clear
+ls
+cd app
+ls
+cd ..
+docker ps
+docker exec -it a5a3 bash
+cd app
+cd web/modules/contrib/commerce/modules
+cls
+ls
+cd /
+ls
+cd ~
+ls
+unzip mod-drupalco*.zip -d ~/app/web/modules/contrib/commerce/modules/
+sudo apt-get install unzip 
+unzip mod-drupalco*.zip -d ~/app/web/modules/contrib/commerce/modules/
+sudo unzip mod-drupalco*.zip -d ~/app/web/modules/contrib/commerce/modules/
+cd ~/app/web/modules/contrib/commerce/modules/
+ls
+cd mod-drupal*
+ls
+clear
+sudo mv payfast ./
+sudo mv payfast ~/app/web/modules/contrib/commerce/modules/
+ls
+cd ..
+ls
+rm -rf mod-drupal*
+sudo rm -rf mod-drupal*
+ls
+cd ..
+drush updb
+cls
+docker ps
+docker exec -it a5a3 bash
+exit
+docker ps
+docker exec -it a5a3 bash
+cd ~
+ls
+unzip mod-drupalcommerce-8-master.zip ~/app/web/modules/contrib/commerce/modules/
+sudo unzip mod-drupalcommerce-8-master.zip -d ~/app/web/modules/contrib/commerce/modules/
+cd ~/app/web/modules/contrib/commerce/modules/
+ls
+cd mod-drup*
+ls
+mv payfast ~/app/web/modules/contrib/commerce/modules/
+sudo mv payfast ~/app/web/modules/contrib/commerce/modules/
+cd ..
+ls
+cd mod-drup*
+cd ..
+rm -rf mod-drup*
+sudo rm -rf mod-drup*
+docker exec -it a5a3 bash
+exit
+ls
+docker ps
+docker exec -it a5a3 bash

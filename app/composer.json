@@ -22,7 +22,7 @@
         "drupal/admin_toolbar": "^2.0",
         "drupal/block_class": "^1.1",
         "drupal/block_field": "^1.0@alpha",
-        "drupal/commerce": "^2.16",
+        "drupal/commerce": "^2.18",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
